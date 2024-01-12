@@ -1,0 +1,123 @@
+* {
+    padding: 10px 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.player0 {
+    background-color: rgb(156, 207, 255);
+    height: 38vw;
+    width: 40%;
+    border: 2px solid rgb(52, 0, 90);
+}
+
+.player1 {
+    background-color: rgb(156, 207, 255);
+    height: 38vw;
+    width: 40%;
+    border: 2px solid darkblue;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btnDiv{
+    position: absolute;
+    margin: 20px 27.6%;
+}
+
+#roll-div{
+    height: 100px;
+    margin: 20px 27.6%;
+    position: absolute;
+    margin-top: 20vw;
+}
+
+#newGameBtn {
+    background-color: rgb(255, 179, 0);
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.points {
+    height: 7vw;
+    background-color: rgb(52, 0, 90);
+    width: 10vw;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 70%;
+    margin-left: 30%;
+}
+
+.counter {
+    font-size: 40px;
+    margin-top: -20px;
+    position: relative;
+}
+
+#roll {
+    background-color: rgb(255, 179, 0);
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    /* margin-top: 20vw; */
+}
+
+#hold {
+    background-color: rgb(255, 179, 0);
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+.score {
+    color: white;
+    font-size: 50px;
+    margin-bottom: -150px;
+    margin-left: 40%;
+}
+
+.dice-img {
+    height: 90px;
+    /* margin: 50px 50%; */
+}
+
+#img-div {
+    position: absolute;
+    margin: 150px 27.8%;
+}
+
+.hidden {
+    display: none;
+}
+
+.points> p {
+    margin-top: -5px;
+}
+
+.active-player {
+    background-color: rgb(48, 110, 164);
+}
+
+.winner {
+    background-color: rgb(4, 0, 124);
+}
